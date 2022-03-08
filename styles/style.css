@@ -12,6 +12,52 @@ body {
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
+
+    /* CSS HEX */
+--pink-lace: #f5cce8ff;
+--plum-web: #ec9dedff;
+--middle-purple: #c880b7ff;
+--pearly-purple: #9f6ba0ff;
+--dark-purple: #4a2040ff;
+
+/* CSS HSL */
+--pink-lace: hsla(319, 67%, 88%, 1);
+--plum-web: hsla(299, 69%, 77%, 1);
+--middle-purple: hsla(314, 40%, 64%, 1);
+--pearly-purple: hsla(299, 22%, 52%, 1);
+--dark-purple: hsla(314, 40%, 21%, 1);
+
+/* SCSS HEX */
+--pink-lace: #f5cce8ff;
+--plum-web: #ec9dedff;
+--middle-purple: #c880b7ff;
+--pearly-purple: #9f6ba0ff;
+--dark-purple: #4a2040ff;
+
+/* SCSS HSL */
+--pink-lace: hsla(319, 67%, 88%, 1);
+--plum-web: hsla(299, 69%, 77%, 1);
+--middle-purple: hsla(314, 40%, 64%, 1);
+--pearly-purple: hsla(299, 22%, 52%, 1);
+--dark-purple: hsla(314, 40%, 21%, 1);
+
+/* SCSS RGB */
+--pink-lace: rgba(245, 204, 232, 1);
+--plum-web: rgba(236, 157, 237, 1);
+--middle-purple: rgba(200, 128, 183, 1);
+--pearly-purple: rgba(159, 107, 160, 1);
+--dark-purple: rgba(74, 32, 64, 1);
+
+/* SCSS Gradient */
+--gradient-top: linear-gradient(0deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-right: linear-gradient(90deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-bottom: linear-gradient(180deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-left: linear-gradient(270deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-top-right: linear-gradient(45deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-bottom-right: linear-gradient(135deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-top-left: linear-gradient(225deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-bottom-left: linear-gradient(315deg, #f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
+--gradient-radial: radial-gradient(#f5cce8ff, #ec9dedff, #c880b7ff, #9f6ba0ff, #4a2040ff);
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
@@ -19,7 +65,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: #4a2040ff;
 }
 
 main {
@@ -56,14 +102,20 @@ header {
 footer {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: green;
     box-shadow: var(--shadow);
 }
-
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    color: white;
+}
+
+.output-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: white;
 }
 
 .gutter-right {
@@ -133,6 +185,7 @@ footer {
 
 .face::after {
     font-size: 8rem;
-    content: '😃';
+    content: '😃'; 
     position: absolute;
 }
+

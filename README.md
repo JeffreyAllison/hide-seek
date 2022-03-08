@@ -1,11 +1,12 @@
 # Hide and Seek
 
 ## Learning Objectives
+
 - Identify and describe the core JavaScript types: strings, numbers, objects, arrays, undefined/null, and booleans.
 - Describe the difference between let and const, and describe when each is useful.
 - Describe the relationship between state and view in an application.
 - Increment numerical state, stored in a let, in response to a user event (usually a click).
-- Derive implicit numerical state using explicitly tracked numerical state. 
+- Derive implicit numerical state using explicitly tracked numerical state.
 - When updating numerical state on click, update the DOM to reflect the new state to the user.
 - Create an array of primitive values and access any item in that array by index using bracket notation
 - Use document.getElementById  to ‘grab’ a DOM element by id
@@ -16,19 +17,20 @@
 - Describe the benefits and risks of both WET (write everything twice) and DRY (don't repeat yourself) code
 - Write an impure function to bundle and reuse DOM manipulation that is repeated multiple times
 - Use Math.random to get a random item from an array
-- Use a truthy/falsey expression in an if/else statement to perform an action conditionally
-- Describe the difference between (and give examples of) true  and truthy, false  and falsey values.
+- Use a truthy/falsely expression in an if/else statement to perform an action conditionally
+- Describe the difference between (and give examples of) true  and truthy, false and falsely values.
 
 ## Suggested Order
+
 1) Call the handleGuess functions first inside event handlers
 2) Pass the correct arguments to the handleGuess functions
 3) Finish the handleGuess declaration
 
 [Buggy Hide and Seek](https://github.com/alchemycodelab/buggy-js-hide-and-seek/)
 
-### Live Example:
-https://alchemycodelab.github.io/web-01-hide-and-seek/
+## Live Example
 
+<https://alchemycodelab.github.io/web-01-hide-and-seek/>
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
